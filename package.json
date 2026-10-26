@@ -1,0 +1,13 @@
+{
+  "name": "riva-earn-mini-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "RIVA EARN Telegram Mini App with a real backend and SQLite database",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "express": "^4.21.2"
+  }
+}
